@@ -1,18 +1,18 @@
 
 import matplotlib.pyplot as plt
 
+
+ax = plt.axes(projection='3d')
+ax.set_xlim(0, 1)
+ax.set_ylim(0, 1)
+ax.set_zlim(0, 1)
+
 u = [0, 0, 1]
 v = [1, 0, 0]
 w = [0, 1, 0]
 x = [1, 1, 0]
 z = [0, 1, 1]
 a = [1, 1, 1]
-
-fig = plt.figure()
-ax = plt.axes(projection='3d')
-ax.set_xlim(0, 1)
-ax.set_ylim(0, 1)
-ax.set_zlim(0, 1)
 
 start = [0, 0, 0]
 
