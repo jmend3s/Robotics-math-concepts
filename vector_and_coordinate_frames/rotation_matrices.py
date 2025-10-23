@@ -32,7 +32,6 @@ def plot_vector(v, ax, label, color):
             fontsize=10)
 
 def main():
-    fig = plt.figure()
     ax = plt.axes(projection='3d')
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
